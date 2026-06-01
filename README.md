@@ -1,4 +1,4 @@
-# Assembly Language Practice 🖥️
+# Assembly Language Practice
 
 A structured collection of 8086 Assembly Language programs written during my
 4th semester of Computer Science at IBA Sukkur. This repository covers
@@ -30,16 +30,15 @@ IBA Sukkur
 
 ##  Folder Structure
 
-assembly-language-practice/
-│
-├── 01_basics/         → Printing characters, input/output, basic arithmetic
-├── 02_loops/          → Loop instruction, nested loops, counting patterns
-├── 03_jumps/          → Conditional and unconditional jumps, comparisons
-├── 04_strings/        → String printing, input buffers, stosb, movsb
-├── 05_arithmetic/     → Add, subtract, multiply, divide, bit rotation
-├── 06_procedures/     → Procedures with/without stack, recursion, parameters
-└── 07_stack/          → Push, pop, LIFO behavior, register preservation
-
+    assembly-language-practice/
+    │
+    ├── 01_basics/         → Printing characters, input/output, basic arithmetic
+    ├── 02_loops/          → Loop instruction, nested loops, counting patterns
+    ├── 03_jumps/          → Conditional and unconditional jumps, comparisons
+    ├── 04_strings/        → String printing, input buffers, stosb, movsb
+    ├── 05_arithmetic/     → Add, subtract, multiply, divide, bit rotation
+    ├── 06_procedures/     → Procedures with/without stack, recursion, parameters
+    └── 07_stack/          → Push, pop, LIFO behavior, register preservation
 ---
 
 ##  Topics Covered
@@ -119,7 +118,7 @@ assembly-language-practice/
 
 ---
 
-## 📝 Notes
+##  Notes
 
 - All programs use the **small memory model** (`.model small`)
 - Strings must be terminated with `$` for DOS interrupt `int 21h`
